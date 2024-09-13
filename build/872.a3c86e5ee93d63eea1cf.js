@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkproject_ulbi=self.webpackChunkproject_ulbi||[]).push([[872],{872:(e,u,t)=>{t.r(u),t.d(u,{default:()=>r});var c=t(848);const r=function(){return(0,c.jsx)("div",{children:"About"})}}}]);
