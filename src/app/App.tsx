@@ -1,5 +1,5 @@
 import './styles/index.scss'
-import { Link } from 'react-router-dom';
+import { SideBar } from 'widgets/SideBar';
 import { useTheme } from './providers/ThemeProviders';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { AppRouter } from './providers/router';
@@ -13,7 +13,10 @@ const App = () => {
     return (
         <div className={classNames('app', {}, [theme])}>
             <Navbar/>
-            <AppRouter/>
+            <div className='content-page'>
+                <SideBar/>
+                <AppRouter/>
+            </div>
         </div>
     )
 }
