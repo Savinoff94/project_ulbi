@@ -1,5 +1,5 @@
 export function myFunc(arg: string) : string {
-    console.log('wwwwww')
+    console.log('wwwwww');
 
-    return ''
+    return '';
 }
